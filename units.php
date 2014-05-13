@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ("../includes/header.php");
+include ("header.php");
 
 if (!isset($_SESSION['uid'])) {
 	echo "You must be logged in to view this page.";
@@ -170,5 +170,5 @@ Units can be trained and untrained here.
 <?php
 }
 
-include ("../includes/footer.php");
+include ("footer.php");
 ?>

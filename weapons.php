@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ("../includes/header.php");
+include ("header.php");
 
 if (!isset($_SESSION['uid'])) {
 	echo "You must be logged in to view this page.";
@@ -53,7 +53,7 @@ if (!isset($_SESSION['uid'])) {
 			`gold`='".$stats['gold']."'
 			WHERE `id`='".$_SESSION['uid']."'") or die(mysql_error());
 			
-			include("../includes/update_stats.php");
+			include("update_stats.php");
 			output("You have sold some weapons and gained ".$gold_gained." gold!");
 		}
 		}
@@ -132,5 +132,5 @@ Weapons can buy and sell weapons here.
 <?php
 }
 
-include ("../includes/footer.php");
+include ("footer.php");
 ?>
