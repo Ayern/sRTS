@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ("header.php");
+include ("../includes/header.php");
 
 if (isset($_POST['login'])) {
 	if (isset($_SESSION['uid'])) {
@@ -23,5 +23,5 @@ if (isset($_POST['login'])) {
 } else {
 	echo "You have visited this page incorrectly.";
 }
-include ("footer.php");
+include ("../includes/footer.php");
 ?>

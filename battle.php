@@ -2,7 +2,7 @@
 
 session_start();
 
-include("header.php");
+include("../includes/header.php");
 
 if(!isset($_SESSION['uid'])){
 
@@ -157,6 +157,6 @@ if(!isset($_SESSION['uid'])){
     }
 }
 
-include("footer.php");
+include("../includes/footer.php");
 
 ?>

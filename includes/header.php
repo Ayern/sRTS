@@ -1,5 +1,5 @@
 <?php
-include ("functions.php");
+include ("../includes/functions.php");
 connect();
 ?>
 <html>
@@ -17,7 +17,7 @@ connect();
 						<?php
 
 if(isset($_SESSION['uid'])){ 
-include("safe.php");
+include("../includes/safe.php");
 echo "Welcome, ".$user['username']."<br />";
 //Navigation Hub
 ?>

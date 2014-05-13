@@ -1,5 +1,5 @@
 <?php
-include("functions.php");
+include("../includes/functions.php");
 connect();
 
 $get_users = mysql_query("SELECT * FROM `stats`") or die(mysql_error());

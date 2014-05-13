@@ -1,6 +1,6 @@
 <?php
 
-include("functions.php");
+include("../includes/functions.php");
 
 connect();
 

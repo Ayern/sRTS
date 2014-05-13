@@ -2,8 +2,8 @@
 
 function connect()
 {
-	mysql_connect("mysql13.000webhost.com", "a1285188_ayern", "q1w2e3r4");
-	mysql_select_db("a1285188_game");
+	mysql_connect("your_db_host.com", "db_user", "db_pass");
+	mysql_select_db("db_name");
 }
 
 function protect($string)

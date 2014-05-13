@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ("header.php");
+include ("../includes/header.php");
 
 if (!isset($_SESSION['uid'])) {
 	echo "You must be logged in to view this page.";
@@ -88,5 +88,5 @@ echo $s_user['username'];
 
 }
 
-include("footer.php");
+include("../includes/footer.php");
 ?>
